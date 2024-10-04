@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+header
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #710e31;
+    color: white;
+    height: 100px;
+    
+}
+
+h1
+{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#vtarjeta, #ptarjeta
+{
+    width: 50%;
+}
+
+#ptarjeta
+{
+    padding: 20px;
+}
+
+#tarjeta
+{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px;
+    text-align: center;
+}
+
+#tarjeta h1
+{
+    margin-top: 10px 0;
+}
+
+#tarjeta img
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+body
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#ptarjeta
+{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 8px;
+}
+
+#tematica,#colores,#imagen,#datosT
+{
+    margin-bottom: 20px;
+}
+
+#tematica select,#colorf,.colorT,textarea,input[type="text"]
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#imagen img
+{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+#imagen img:hover
+{
+    transform: scale(1.1);
+}
+
+#mostrar
+{
+    height: 50px;
+    width: 80px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Tarjeta de felicitación</title>
+</head>
+<body>
+    <header>
+        <h1>Personaliza tu tarjeta</h1>
+    </header>
+    <span id="vtarjeta">
+        <section id="tarjeta">
+            <h1 id="nombre"></h1>
+            <h1 id="arriba"></h1>
+            <h1 id="mensaje"></h1>
+            <img id="img" src="" alt="Imagen seleccionada"/>
+        </section>
+    </span>
+    <section id="ptarjeta">
+        <article id="tematica">
+            <figure>
+                <h1>Elige tu temática</h1>
+            </figure>
+            <select id="seleccion">
+                <option value="nada" selected>Elige una opción</option>
+                <option value="cump">Cumpleaños</option>
+                <option value="navidad">Navidad</option>
+                <option value="dmama">Día de las madres</option>
+            </select>
+        </article>
+        <article id="colores">
+            <figure>
+                <h1>Color de la tarjeta</h1>
+            </figure>
+            <input type="color" id="colorf">
+        </article>
+        <article id="imagen">
+            <figure>
+                <h1>Elige una imagen para tu tarjeta</h1>
+            </figure>
+            <img src="./img/283709-crear-tarjetas-felicitar-cumpleanos.jpg" id="img1" alt="Imagen 1">
+            <img src="./img/composition-birthday-cupcake-on-pink-600nw-1564602874.jpg" id="img2" alt="Imagen 2">
+            <img src="./img/depositphotos_41828583-stock-photo-retro-vintage-style-cupcake-fairy.jpg" id="img3" alt="Imagen 3">
+        </article>
+        <article id="datosT">
+            <figure>
+                <h1>Datos</h1>
+            </figure>
+            <div>
+                <input type="text" id="nombreInput" placeholder="Ingresa el nombre">
+                <input type="color" id="colorTexto">
+            </div>
+            <div>
+                <textarea id="mensajeInput" placeholder="Ingresa el mensaje de tu tarjeta" cols="30" rows="10"></textarea>
+            </div>
+        </article>
+        <button type="submit" id="mostrar">MOSTRAR</button>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
